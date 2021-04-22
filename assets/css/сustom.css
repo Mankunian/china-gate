@@ -1,5 +1,8 @@
 .schema {
-  background: /* top, transparent #0a58ca */ linear-gradient( #37517e, rgb(0 0 0 / 50%) ), /* bottom, image */ url(../../assets/img/slide-1.jpg);
+  
+  background: /* top, transparent #0a58ca */ linear-gradient( #37517e, rgb(0 0 0 / 50%) ), /* bottom, image */ url(../../assets/img/22.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .schema .content h3{
@@ -8,4 +11,42 @@
 
 .layer ul li {
 	color: #fff;
+}
+
+.step .icon{
+	text-align: center;
+}
+
+.step-box{
+	width: 150px;
+  height: 150px;
+    border-radius: 2em;
+    -moz-border-radius: 8em;
+    -webkit-border-radius: 8em;
+    box-shadow: 0 0 0 2px #EE9A0F;
+    color: #000;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 11em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.step-box i{
+	color: #EE9A0F;
+}
+
+.step h4{
+	color: #fff;
+}
+
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+	.second-slide{
+		bottom: 25%;
+	}
+	.first-slide{
+		bottom: 35%;
+	}
 }
