@@ -118,7 +118,7 @@
 }
 
 #header .logo img{
-	max-height: 90px;
+	max-height: 50px;
 }
 
 #header .logo{
@@ -141,11 +141,63 @@
 	color: #fff !important;
 }
 
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	.first-slide{
+		bottom: 0 !important;
+		h1{
+			font-size: x-large;
+		}
+		p{
+			font-size: small;
+		}
+	}
+
+
+	.second-slide{
+		bottom: 0 !important;
+		h1{
+			font-size: x-large;
+		}
+		p{
+			font-size: small;
+		}
+	}
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.first-slide{
+		bottom: 0 !important;
+		h1{
+			font-size: x-large;
+		}
+		p{
+			font-size: small;
+		}
+	}
+
+	.second-slide{
+		bottom: 0 !important;
+		h1{
+			font-size: x-large;
+		}
+		p{
+			font-size: small;
+		}
+	}
+ }
+
 @media screen and (min-width: 1200px) and (orientation: landscape) {
 	.second-slide{
 		bottom: 25%;
 	}
 	.first-slide{
 		bottom: 20%;
+	}
+
+	#header .logo img{
+		max-height: 90px;
 	}
 }
