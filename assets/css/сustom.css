@@ -71,10 +71,32 @@
     border: 2px solid #47b2e4;
 }
 
+.whatsapp{
+	position: fixed;
+	bottom: 70px;
+	right: 15px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background: #fff;
+}
+.whatsapp.active{
+	visibility: visible;
+    opacity: 1;
+}
+
 .btn-learn-more:hover{
 	background: #47b2e4;
     color: #fff;
     text-decoration: none;
+}
+
+#header .logo img{
+	max-height: 90px;
+}
+
+#header .logo{
+	font-size: 15px !important;
 }
 
 @media screen and (min-width: 1200px) and (orientation: landscape) {
@@ -82,6 +104,6 @@
 		bottom: 25%;
 	}
 	.first-slide{
-		bottom: 35%;
+		bottom: 20%;
 	}
 }
