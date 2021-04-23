@@ -16,14 +16,15 @@
     background-size: cover;
 }
 
-.contact-bg{
-	background: /* top, transparent #e9ecef */ linear-gradient( rgb(0 0 0 / 50%), rgb(0 0 0 / 50%) ), /* bottom, image */ url(../img/background/4.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+.cta {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/background/1.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
 }
 
-.contact-bg h2{
+.cta h2{
 	color: #fff !important;
+	font-size: 35px !important;
 }
 
 .schema .content h3{
