@@ -1,3 +1,7 @@
+#header{
+	background: #37517e !important;
+}
+
 .schema {
   background: /* top, transparent #0a58ca */ linear-gradient( #37517e, rgb(0 0 0 / 50%) ), /* bottom, image */ url(../../assets/img/22.jpg);
 	background-repeat: no-repeat;
@@ -231,10 +235,10 @@
 
 @media screen and (min-width: 1200px) and (orientation: landscape) {
 	.second-slide{
-		bottom: 25% !important;
+		/* bottom: 25% !important; */
 	}
 	.first-slide{
-		bottom: 20% !important;
+		/* bottom: 20% !important; */
 	}
 
 	#header .logo img{
