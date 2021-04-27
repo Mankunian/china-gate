@@ -145,16 +145,29 @@
 	color: #fff !important;
 }
 
+.carousel-item > img{
+	height: auto !important;
+}
+
+
+.carousel{
+	margin-bottom: 0 !important;
+}
+
+.carousel-item{
+	height: 40rem !important;
+}
+
 @media (min-width: 320px) and (max-width: 424px) {
 	.first-slide{
 		bottom: 0 !important;
 	}
 
 	.first-slide h1{
-		font-size: small;
+		/* font-size: large; */
 	}
 	.first-slide p{
-		font-size: smaller;
+		/* font-size: smaller; */
 	}
 
 	.second-slide{
@@ -162,42 +175,54 @@
 	}
 
 	.second-slide h1{
-		font-size: small;
+		/* font-size: large; */
 	}
 	.second-slide p{
-		font-size: smaller;
+		/* font-size: smaller; */
 	}
 
 	.btn{
 		font-size: 12px !important;
+	}
+
+	.carousel-item > img{
+		height: inherit !important;
+	}
+
+	.carousel-item{
+		height: 32rem !important;
 	}
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 425px) and (max-width: 768px) { 
 	.first-slide{
-		bottom: 0 !important;
+		bottom: 7rem !important
 	}
 
 	.first-slide h1{
-		font-size: x-large;
+		/* font-size: x-large; */
 		font-weight: 600;
 	}
 	.first-slide p{
-		font-size: small;
+		/* font-size: small; */
+	}
+
+	.carousel-item > img{
+		height: inherit !important;
 	}
 
 
 	.second-slide{
-		bottom: 0 !important;
+		bottom: 7rem !important
 	}
 
 	.second-slide h1{
-		font-size: x-large;
+		/* font-size: x-large; */
 		font-weight: 600;
 	}
 	.second-slide p{
-		font-size: small;
+		/* font-size: small; */
 	}
 
  }
@@ -216,3 +241,6 @@
 		max-height: 90px;
 	}
 }
+
+
+
