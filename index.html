@@ -27,6 +27,10 @@
 	<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
 	<!-- Template Main CSS File -->
 	<link href="assets/css/style.css" rel="stylesheet">
 	<link href="assets/css/сustom.css" rel="stylesheet">
@@ -37,13 +41,8 @@
 </head>
 
 <body>
-
-	<!-- ======= Header ======= -->
 	<header id="header" class="fixed-top ">
 		<div class="container d-flex align-items-center">
-
-			<!-- <h1 class="logo me-auto"><a href="index.html">CHINA GATE</a></h1> -->
-			<!-- Uncomment below if you prefer to use an image logo -->
 			<a href="index.html" class="logo me-auto">
 				<img src="assets/img/667.png" alt="" class="img-fluid">
 			</a>
@@ -61,19 +60,18 @@
 						</ul>
 					</li>
 					<li><a class="nav-link scrollto" href="#contact">Контакты</a></li>
-					<!-- <li><a class="getstarted scrollto" href="#about">Начать</a></li> -->
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
 			</nav><!-- .navbar -->
 
 		</div>
-	</header><!-- End Header -->
+	</header>
 
 
 
 	<main id="main">
 
-		<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+		<!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
 					aria-label="Slide 1"></button>
@@ -119,7 +117,47 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Next</span>
 			</button>
+		</div> -->
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<!-- Slide One - Set the background image for this slide in the line below -->
+				<div class="carousel-item active"
+					style="background-image: url('assets/img/slider.jpg'); background-repeat: no-repeat; background-size: cover;">
+					<div class="carousel-caption  d-md-block">
+						<h2 class="display-4">Прямые Авиа рейсы из Пекина в Алматы. </h2>
+						<p class="lead">Доставят ваш груз за несколько часов. С таможенной очисткой и
+							без!.</p>
+						<p><a href="https://wa.me/+77479100911?text=Добрый%20день!%20Меня%20интересует%20..."
+								class="btn  btn-primary">Оставить заявку</a></p>
+					</div>
+				</div>
+				<!-- Slide Two - Set the background image for this slide in the line below -->
+				<div class="carousel-item" style="background-image: url('assets/img/slider3.jpg')">
+					<div class="carousel-caption d-md-block">
+
+						<h2 class="display-4">Доставка из Китая в Казахстан</h2>
+						<p class="lead">Поиск и предоставление лучших цен, на товары заводов и фабрик Китая.</p>
+						<p><a href="https://wa.me/+77479100911?text=Добрый%20день!%20Меня%20интересует%20..."
+								class="btn btn-primary">Оставить заявку</a></p>
+					</div>
+				</div>
+
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
+
 
 		<!-- ======= Cta Section ======= -->
 		<section id="cta" class="cta">
@@ -1041,6 +1079,10 @@
 	<!-- Template Main JS File -->
 	<script src="assets/js/main.js"></script>
 	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+	<!-- Custom -->
+	<script src="assets/js/jquery.slim.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

@@ -196,10 +196,22 @@
 	.carousel-item{
 		height: 32rem !important;
 	}
+
+	.display-4{
+		font-size: 2.5rem !important;
+    font-weight: 300 !important;
+    line-height: 1.1 !important;
+	}
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 425px) and (max-width: 768px) { 
+	.display-4{
+		font-size: 2.5rem !important;
+    font-weight: 300 !important;
+    line-height: 1.1 !important;
+	}
+	
 	.first-slide{
 		bottom: 7rem !important
 	}
@@ -252,3 +264,22 @@
 
 
 
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+	transition: transform 0s ease-in-out,
+	-webkit-transform 0s ease-in-out;
+}
+
+.carousel-inner>.item {
+	-webkit-transition: 0s !important;
+	-o-transition: 0s !important;
+	transition: 0s !important;
+}
