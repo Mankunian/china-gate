@@ -264,10 +264,23 @@
 
 
 
-.carousel-item {
+.second{
   height: 100vh;
   min-height: 350px;
   background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+	transition: transform 0s ease-in-out,
+	-webkit-transform 0s ease-in-out;
+}
+.first {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
